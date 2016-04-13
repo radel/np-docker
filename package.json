@@ -1,0 +1,21 @@
+{
+  "name": "np-docker",
+  "version": "1.0.0",
+  "description": "a docker-compose automatic install with wordpress image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marco Bonomo",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "nconf": "^0.8.4",
+    "node-yaml-config": "0.0.4",
+    "read-yaml": "^1.0.0",
+    "write-yaml": "^0.2.2"
+  },
+  "bin": {
+    "np-docker": "index.js"
+  }
+}
